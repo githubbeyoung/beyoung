@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.enjoy.dao.CodRegionDao" >
+
+  
+ <!-- <select id="findRegionByUpcode" parameterType="int" resultType="com.enjoy.domain.CodRegion">
+    SELECT CODE,CNAME
+    FROM T_COD_REGION WHERE FLAG='1' AND UPCODE=#{upcode}
+  </select> -->
+  
+  <select id="findRegionByUpcode" parameterType="int" resultType="com.enjoy.domain.CodRegion">
+    SELECT * FROM T_COD_REGION WHERE FLAG='1' AND UPCODE=#{upcode}
+  </select>
+  
+  <select id="findReionByCode" parameterType="int" resultType="com.enjoy.domain.CodRegion">
+  	SELECT * FROM T_COD_REGION WHERE FLAG='1' AND CODE=#{code}
+  </select>
+ 
+  
+</mapper>
