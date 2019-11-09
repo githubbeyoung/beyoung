@@ -80,6 +80,7 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-devtools:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
